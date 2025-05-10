@@ -13,11 +13,6 @@ class Settings(BaseSettings):
     API_BASE_URL: str 
     FASTAPI_KEY: str = "your-api-key-here"  # Change this in production
     
-    # API base URL for callbacks
-    API_BASE_URL: Optional[str] = Field(
-        os.environ.get("API_BASE_URL", "https://api-dev.maverickcosts.com"),
-        description="Base URL for API callbacks"
-    )
     
     # Background task settings
     MAX_TASK_RUNTIME: int = Field(
