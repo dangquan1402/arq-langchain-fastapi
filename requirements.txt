@@ -1,0 +1,16 @@
+arq>=0.25.0
+redis>=4.3.4
+pydantic-settings
+langchain-openai
+uvicorn==0.34.0
+langchain_google_genai==2.0.11
+fastapi==0.115.11
+grpcio==1.70.0
+loguru==0.7.3
+pydantic==2.10.6
+pydantic_settings==2.8.1
+tenacity==9.0.0
+uvicorn==0.34.0
+langchain-core==0.3.40
+jinja2
+python-multipart==0.0.20
